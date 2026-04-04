@@ -1,2 +1,3 @@
-# templateFunctionality
-Example of C++ template function and class usage.
+# template-example-cpp
+
+Template function and class usage examples in C++.
