@@ -4,7 +4,7 @@
  * @brief Template class file
  * @version 0.1
  * @date 04-12-2022
- * 
+ *
  * @copyright Copyright (c) 2022
  */
 
@@ -30,11 +30,6 @@ T templateClass<T>::normalFunction(T exampleVal)
 {
     return exampleVal;
 }
-
-/**
- * @note Because we put the functions and the prototypes in different files(.c and .h),
- * we need to re define every usage of the template class functions as well.
- */
 
 template templateClass<char const*>::templateClass();
 template templateClass<char const*>::templateClass(char const*);

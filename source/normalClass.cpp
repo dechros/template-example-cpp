@@ -24,10 +24,5 @@ T normalClass::templateFunction(T exampleVal)
     return exampleVal;
 }
 
-/**
- * @note Because we put the function and the prototype in different files(.c and .h),
- * we need to re define every usage of the template function as well.
- */
-
 template int normalClass::templateFunction<int>(int);
 template const char *normalClass::templateFunction<const char *>(const char *);
